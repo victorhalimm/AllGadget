@@ -1,0 +1,304 @@
+{
+    "products": [
+      {
+        "category": "smartphone",
+        "name": "iPhone 13 Pro",
+        "price": 1099,
+        "description": "The iPhone 13 Pro features a stunning Super Retina XDR display, A15 Bionic chip, and a powerful camera system.",
+        "imgUrl": "../assets/smartphones/iphone-13-pro.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Samsung Galaxy S21",
+        "price": 899,
+        "description": "The Samsung Galaxy S21 boasts a dynamic AMOLED display, Exynos 2100/Snapdragon 888 chipset, and a versatile camera setup.",
+        "imgUrl": "../assets/smartphones/samsung-s21.webp"
+      },
+      {
+        "category": "smartphone",
+        "name": "Google Pixel 6",
+        "price": 799,
+        "description": "The Google Pixel 6 offers an exceptional camera experience with computational photography, along with a smooth display and fast performance.",
+        "imgUrl": "../assets/smartphones/Google-Pixel-6.webp"
+      },
+      {
+        "category": "smartphone",
+        "name": "OnePlus 9 Pro",
+        "price": 999,
+        "description": "The OnePlus 9 Pro features a Fluid AMOLED display, Snapdragon 888 chipset, and a Hasselblad camera system.",
+        "imgUrl": "../assets/smartphones/OnePlus-9-pro.png"
+      },
+      {
+        "category": "smartphone",
+        "name": "Xiaomi Mi 11",
+        "price": 699,
+        "description": "The Xiaomi Mi 11 offers a high-resolution display, Snapdragon 888 chipset, and a versatile camera setup at an affordable price.",
+        "imgUrl": "../assets/smartphones/xiaomi-mi-11.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Sony Xperia 1 III",
+        "price": 1299,
+        "description": "The Sony Xperia 1 III boasts a 4K OLED display, Snapdragon 888 chipset, and a pro-level camera system for photography enthusiasts.",
+        "imgUrl": "../assets/smartphones/sony-xperia-1.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Huawei P40 Pro",
+        "price": 999,
+        "description": "The Huawei P40 Pro features a curved OLED display, Kirin 990 chipset, and a powerful camera system with impressive zoom capabilities.",
+        "imgUrl": "../assets/smartphones/huawei-p40-pro.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "LG Velvet",
+        "price": 699,
+        "description": "The LG Velvet offers a sleek design, Snapdragon 765G chipset, and a versatile camera setup at a competitive price.",
+        "imgUrl": "../assets/smartphones/LG-Velvet.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Motorola Edge+",
+        "price": 999,
+        "description": "The Motorola Edge+ boasts a waterfall display, Snapdragon 865 chipset, and a high-capacity battery for all-day usage.",
+        "imgUrl":"../assets/smartphones/motorola-edge.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Oppo Find X3 Pro",
+        "price": 1199,
+        "description": "The Oppo Find X3 Pro features a stunning display, Snapdragon 888 chipset, and a versatile camera system with macro capabilities.",
+        "imgUrl":"../assets/smartphones/oppo-find-x3.jpg"
+      },
+      {
+        "category": "smartphone",
+        "name": "Xiaomi Redmi Note 10 Pro",
+        "price": 299,
+        "description": "The Xiaomi Redmi Note 10 Pro offers a high-resolution display, a powerful processor, and a quad-camera setup for stunning photography.",
+        "imgUrl": "../assets/smartphones/xiaomi-redmi-note-10-pro.png"
+      },
+      {
+        "category": "smartphone",
+        "name": "OnePlus Nord 2",
+        "price": 399,
+        "description": "The OnePlus Nord 2 features a smooth AMOLED display, a fast MediaTek Dimensity 1200 chipset, and a versatile camera system.",
+        "imgUrl": "../assets/smartphones/oneplus-nord-2.jpg"
+      },
+      {
+        "category": "tablet",
+        "name": "iPad Air",
+        "price": 599,
+        "description": "The iPad Air combines powerful performance with a sleek design, featuring an A14 Bionic chip and support for Apple Pencil and Magic Keyboard."
+      },
+      {
+        "category": "tablet",
+        "name": "Samsung Galaxy Tab S7+",
+        "price": 849,
+        "description": "The Samsung Galaxy Tab S7+ offers a stunning Super AMOLED display, Snapdragon 865+ chipset, and an S Pen for productivity."
+      },
+      {
+        "category": "tablet",
+        "name": "Microsoft Surface Pro 7",
+        "price": 899,
+        "description": "The Microsoft Surface Pro 7 is a versatile 2-in-1 device with a powerful Intel Core processor and a detachable Type Cover."
+      },
+      {
+        "category": "tablet",
+        "name": "Amazon Fire HD 10",
+        "price": 149,
+        "description": "The Amazon Fire HD 10 provides a budget-friendly option with a Full HD display, long battery life, and access to Amazon services."
+      },
+      {
+        "category": "tablet",
+        "name": "Google Pixel Slate",
+        "price": 699,
+        "description": "The Google Pixel Slate offers a high-resolution display, Chrome OS, and a detachable keyboard for productivity on the go."
+      },
+      {
+        "category": "tablet",
+        "name": "Lenovo Tab P11 Pro",
+        "price": 499,
+        "description": "The Lenovo Tab P11 Pro features a vibrant OLED display, Snapdragon 730G chipset, and quad-speaker system for immersive entertainment."
+      },
+      {
+        "category": "tablet",
+        "name": "Huawei MatePad Pro",
+        "price": 699,
+        "description": "The Huawei MatePad Pro offers a premium design, powerful Kirin 9000E chipset, and support for Huawei M-Pencil and Smart Keyboard."
+      },
+      {
+        "category": "tablet",
+        "name": "Samsung Galaxy Tab A7 Lite",
+        "price": 149,
+        "description": "The Samsung Galaxy Tab A7 Lite provides a compact and affordable option for entertainment and light productivity tasks."
+      },
+      {
+        "category": "tablet",
+        "name": "Apple iPad Pro",
+        "price": 1099,
+        "description": "The Apple iPad Pro delivers exceptional performance with the M1 chip, a Liquid Retina XDR display, and support for Apple Pencil and Magic Keyboard."
+      },
+      {
+        "category": "tablet",
+        "name": "Microsoft Surface Go 2",
+        "price": 399,
+        "description": "The Microsoft Surface Go 2 is a compact and lightweight 2-in-1 device with a PixelSense display and versatile kickstand."
+      },
+      {
+        "category": "tablet",
+        "name": "Lenovo Yoga Tab 13",
+        "price": 699,
+        "description": "The Lenovo Yoga Tab 13 combines a large display, powerful performance, and a unique built-in kickstand for versatile usage."
+      },
+      {
+        "category": "tablet",
+        "name": "Amazon Fire HD 8 Plus",
+        "price": 109,
+        "description": "The Amazon Fire HD 8 Plus offers an affordable price, an 8-inch HD display, and extended battery life for entertainment on the go."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Apple Watch Series 7",
+        "price": 399,
+        "description": "The Apple Watch Series 7 offers a larger always-on display, advanced health features, and seamless integration with iOS devices."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Samsung Galaxy Watch 4",
+        "price": 349,
+        "description": "The Samsung Galaxy Watch 4 features a sleek design, comprehensive fitness tracking, and compatibility with Android and iOS devices."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Fitbit Versa 3",
+        "price": 229,
+        "description": "The Fitbit Versa 3 is a feature-packed smartwatch with built-in GPS, heart rate monitoring, and support for voice assistants."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Garmin Forerunner 945",
+        "price": 599,
+        "description": "The Garmin Forerunner 945 is a premium GPS smartwatch for athletes, offering advanced performance metrics and long battery life."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Huawei Watch GT 2 Pro",
+        "price": 299,
+        "description": "The Huawei Watch GT 2 Pro combines a stylish design with fitness tracking, a long-lasting battery, and advanced health monitoring."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Fossil Gen 5",
+        "price": 249,
+        "description": "The Fossil Gen 5 smartwatch offers a classic design, Wear OS functionality, and a range of fitness tracking features."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Amazfit GTS 2",
+        "price": 179,
+        "description": "The Amazfit GTS 2 features a vibrant AMOLED display, extensive fitness tracking capabilities, and long battery life."
+      },
+      {
+        "category": "smartwatch",
+        "name": "TicWatch Pro 3",
+        "price": 299,
+        "description": "The TicWatch Pro 3 is a Wear OS smartwatch with a dual-display, long battery life, and Qualcomm Snapdragon Wear 4100 chipset."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Garmin Venu 2",
+        "price": 399,
+        "description": "The Garmin Venu 2 offers a vibrant AMOLED display, comprehensive fitness tracking, and advanced sleep monitoring features."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Garmin Fenix 6 Pro",
+        "price": 699,
+        "description": "The Garmin Fenix 6 Pro is a rugged multisport GPS smartwatch with advanced fitness tracking features and long battery life."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Fossil Gen 6",
+        "price": 299,
+        "description": "The Fossil Gen 6 smartwatch combines classic design with modern technology, including heart rate monitoring and Google Wear OS."
+      },
+      {
+        "category": "smartwatch",
+        "name": "Fitbit Versa 3",
+        "price": 229,
+        "description": "The Fitbit Versa 3 is a feature-packed smartwatch with built-in GPS, heart rate monitoring, and support for voice assistants."
+      },
+      {
+        "category": "accessory",
+        "name": "Apple AirPods Pro",
+        "price": 249,
+        "description": "The Apple AirPods Pro provide immersive sound, active noise cancellation, and a comfortable, customizable fit."
+      },
+      {
+        "category": "accessory",
+        "name": "Samsung Galaxy Buds Pro",
+        "price": 199,
+        "description": "The Samsung Galaxy Buds Pro offer high-quality audio, active noise cancellation, and seamless integration with Samsung devices."
+      },
+      {
+        "category": "accessory",
+        "name": "Sony WH-1000XM4 Wireless Headphones",
+        "price": 349,
+        "description": "The Sony WH-1000XM4 headphones deliver industry-leading noise cancellation, exceptional sound quality, and long battery life."
+      },
+      {
+        "category": "accessory",
+        "name": "Bose QuietComfort Earbuds",
+        "price": 279,
+        "description": "The Bose QuietComfort Earbuds provide immersive sound, noise cancellation, and a secure, comfortable fit for all-day use."
+      },
+      {
+        "category": "accessory",
+        "name": "Anker PowerCore 10000 Power Bank",
+        "price": 29,
+        "description": "The Anker PowerCore 10000 is a portable power bank with a high capacity, fast charging, and multiple device compatibility."
+      },
+      {
+        "category": "accessory",
+        "name": "Belkin BoostCharge Wireless Charging Pad",
+        "price": 49,
+        "description": "The Belkin BoostCharge Wireless Charging Pad offers convenient and fast wireless charging for smartphones and other Qi-enabled devices."
+      },
+      {
+        "category": "accessory",
+        "name": "Spigen Ultra Hybrid iPhone Case",
+        "price": 19,
+        "description": "The Spigen Ultra Hybrid iPhone Case provides reliable protection, a slim profile, and clear transparency to showcase your iPhone's design."
+      },
+      {
+        "category": "accessory",
+        "name": "SanDisk Extreme Portable SSD",
+        "price": 99,
+        "description": "The SanDisk Extreme Portable SSD offers fast, durable, and secure storage in a compact and portable form factor."
+      },
+      {
+        "category": "accessory",
+        "name": "Logitech MX Master 3 Wireless Mouse",
+        "price": 99,
+        "description": "The Logitech MX Master 3 is a high-precision wireless mouse with advanced features, ergonomic design, and customizable controls."
+      },
+      {
+        "category": "accessory",
+        "name": "AmazonBasics Laptop Sleeve",
+        "price": 15,
+        "description": "The AmazonBasics Laptop Sleeve provides reliable protection for laptops up to 15 inches, with a slim and lightweight design."
+      },
+      {
+        "category": "accessory",
+        "name": "RAVPower 26800mAh Power Bank",
+        "price": 49,
+        "description": "The RAVPower 26800mAh Power Bank provides high-capacity charging, multiple USB ports, and fast charging technology for your devices."
+      },
+      {
+        "category": "accessory",
+        "name": "Samsung Galaxy Watch Active 2 Strap",
+        "price": 29,
+        "description": "The Samsung Galaxy Watch Active 2 Strap offers a stylish and comfortable replacement strap for your Samsung smartwatch."
+      }
+    ]
+  }
