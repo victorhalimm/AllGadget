@@ -122,12 +122,9 @@
 
   .about-section {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     background-color: #161617;
-    padding-left: calc(8px + 1.5625vw);
-    padding-right: calc(8px + 1.5625vw);
-    padding-top: calc(24px + 1.5625vw);
     gap: 15vh;
     display: flex;
     flex-direction: column;
@@ -135,6 +132,9 @@
 
 
   .info-col {
+    padding-top: calc(16px + 1.5625vw);
+    padding-left: calc(8px + 1.5625vw);
+    padding-right: calc(8px + 1.5625vw);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -210,3 +210,40 @@
     width: 100%;
     object-fit: cover;
   }
+
+  footer {
+    margin-top: 1rem;
+    display: flex;
+    background-color: inherit;
+    color: white;
+    justify-content: space-between;
+    padding-top: calc(8px + 1.5625vw);
+    padding-left: calc(8px + 1.5625vw);
+    padding-right: calc(8px + 1.5625vw);
+    padding-bottom: calc(8px + 1.5625vw);
+    width: 100vw;
+    height: 20vh;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-text-copyright {
+    font-weight: 600;
+}
+
+.footer-text-project {
+    font-weight: 400;
+}
+
+.footer-links {
+    font-size: 1rem;
+    display: flex;
+    gap: 2vw;
+    justify-content: space-around;
+
+}

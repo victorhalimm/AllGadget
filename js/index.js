@@ -7,7 +7,6 @@ function nextSlide() {
     itemSlides[currSlide].classList.remove('active')
     currSlide = (currSlide + 1) % itemSlides.length
     itemSlides[currSlide].classList.add('active')
-    event.preventDefault()
 }
 
 var heroText = document.querySelector('.hero-big-text')
@@ -21,3 +20,9 @@ window.addEventListener("scroll", () => {
     else nav.classList.remove('nav-below')
 })
 
+const regisBtn = document.querySelector('.regis-btn')
+
+
+regisBtn.addEventListener('click', (event) => {
+    
+})
