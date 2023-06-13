@@ -57,7 +57,7 @@ nav {
 
 .visible-body {
     width: 80vw;
-    height: 10vh;
+    height: calc(24px + 3vw);
     background-color: transparent;
     border-radius: 24px;
     display: flex;
@@ -86,12 +86,12 @@ nav .visible-body .left-nav {
 
 .nav-header {
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: calc(16px + 0.5vw);
 }
 
 .nav-link {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: calc(12px + 0.5vw);
     transition: color 0.3s;
 }
 
@@ -133,7 +133,7 @@ nav .visible-body .left-nav {
     padding-right: calc(8px + 1.5625vw);
     width: 80%;
     position: absolute;
-    font-size: 8rem;
+    font-size: calc(48px + 3vw);
     font-weight: 600;
     bottom: 0;
     z-index: 20;
@@ -311,6 +311,12 @@ footer {
     gap: 2vw;
     justify-content: space-around;
 
+}
+
+@media screen and (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
 }
 
 
