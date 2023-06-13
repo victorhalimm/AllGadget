@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       var phone = document.querySelector('#number').value;
       var gender = document.querySelector('input[name="gender"]:checked');
       var password = document.querySelector('#password').value;
+      var agree = document.querySelector('#agree')
   
       if (firstName  === ''|| lastName  === ''|| email  === ''|| phone  === ''|| gender  === ''|| password === '') {
         errorLabel.innerHTML = 'Please fill all fields!';
@@ -39,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
       } 
       else if (!validatePassword(password)) {
         errorLabel.innerHTML = 'Password must be at least 8 characters!';
-      } 
+      }
+      else if (!agree.checked) errorLabel.innerHTML = "Please check the agree to terms & conditions box"
       else {
         errorLabel.style.color = 'green';
         errorLabel.innerHTML = 'Account succesfully created!';
