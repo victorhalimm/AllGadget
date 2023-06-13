@@ -1,21 +1,48 @@
-var itemSlides = document.querySelectorAll('.item-box')
-var currSlide = 0
-
-var itemInterval = setInterval(nextSlide, 4000)
-
-function nextSlide() {
-    itemSlides[currSlide].classList.remove('active')
-    currSlide = (currSlide + 1) % itemSlides.length
-    itemSlides[currSlide].classList.add('active')
-}
-
-var heroText = document.querySelector('.hero-big-text')
-var heroTextHeight = heroText.offsetHeight
-let nav = document.querySelector('.visible-body')
-
-window.addEventListener("scroll", () => {
-    if (document.documentElement.scrollTop >= heroTextHeight) {
-        nav.classList.add('nav-below')
+document.addEventListener('DOMContentLoaded', () => {
+    const submitBtn = document.querySelector('.create-btn');
+    const errorLabel = document.querySelector('.error-label');
+  
+    function validateEmail(email) {
+      if (email.indexOf('@') == -1 || email.indexOf('.com') == -1) return false;
+      return true;
     }
-    else nav.classList.remove('nav-below')
-})
+  
+    function validatePhone(phoneNum) {
+      for (let i = 0; i < phoneNum.length ; i++) {
+        if (phoneNum.charAt(i) < '0' || phoneNum.charAt(i) > '9') return false;
+      }
+      return true;
+    }
+  
+    function validatePassword(pw) {
+      if (pw.length < 8) return false;
+      return true;
+    }
+  
+    submitBtn.addEventListener('click', (event) => {
+  
+      var firstName = document.querySelector('#first-name').value;
+      var lastName = document.querySelector('#last-name').value;
+      var email = document.querySelector('#email').value;
+      var phone = document.querySelector('#number').value;
+      var gender = document.querySelector('input[name="gender"]:checked');
+      var password = document.querySelector('#password').value;
+  
+      if (firstName  === ''|| lastName  === ''|| email  === ''|| phone  === ''|| gender  === ''|| password === '') {
+        errorLabel.innerHTML = 'Please fill all fields!';
+      } 
+      else if (!validateEmail(email)) {
+        errorLabel.innerHTML = 'The email you provided is not in the correct format!';
+      } 
+      else if (!validatePhone(phone)) {
+        errorLabel.innerHTML = 'The phone number you provided is not in the correct format!';
+      } 
+      else if (!validatePassword(password)) {
+        errorLabel.innerHTML = 'Password must be at least 8 characters!';
+      } 
+      else {
+        errorLabel.style.color = 'green';
+        errorLabel.innerHTML = 'Account succesfully created!';
+      }
+    });
+  });
