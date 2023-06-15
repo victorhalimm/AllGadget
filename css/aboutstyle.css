@@ -36,6 +36,7 @@
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    overflow-x: hidden;
   }
   
   a {
@@ -62,6 +63,7 @@
     overflow-y: auto;
     perspective: 10px;
     position: relative;
+    overflow-x: hidden;
   }
   
   .visible-body {
@@ -199,7 +201,7 @@
 
   .values-illustration {
     transform-style: preserve-3d;
-    /* transform: translateZ(-3px); */
+    transform: translateZ(-3px);
     position: fixed;
     top: 0;
     bottom: 0;

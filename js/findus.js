@@ -15,7 +15,7 @@ const activeIndicator = document.querySelector('.active-indicator');
 const findUsCards = document.querySelectorAll('.findus-card')
 
 findUsCards.forEach(findUsCard => {
-
+    
     findUsCard.addEventListener('mouseenter', (event) => {
         const card = event.target
         const cardImg = card.querySelector('.findus-image')
